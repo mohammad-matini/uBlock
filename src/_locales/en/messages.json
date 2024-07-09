@@ -1269,6 +1269,10 @@
     "message": "Toggle JavaScript",
     "description": "Label for keyboard shortcut used to toggle no-scripting switch"
   },
+  "toggleLargeMedia": {
+    "message": "Toggle Large Media",
+    "description": "Label for keyboard shortcut used to toggle large media blocking switch"
+  },
   "relaxBlockingMode": {
     "message": "Relax blocking mode",
     "description": "Label for keyboard shortcut used to relax blocking mode"

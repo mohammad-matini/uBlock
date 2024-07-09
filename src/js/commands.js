@@ -178,6 +178,16 @@ vAPI.commands.onCommand.addListener(async command => {
         });
         vAPI.tabs.reload(tab.id);
         break;
+    case 'toggle-large-media':
+        µb.toggleHostnameSwitch({
+            name: 'no-large-media',
+            hostname: hostnameFromURI(µb.normalizeTabURL(tab.id, tab.url)),
+        });
+        vAPI.tabs.executeScript(tab.id, {
+            file: '/js/scriptlets/load-large-media-all.js',
+            allFrames: true,
+        });
+        break;
     default:
         break;
     }

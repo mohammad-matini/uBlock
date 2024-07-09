@@ -33,6 +33,9 @@
     },
     "toggle-javascript": {
       "description": "__MSG_toggleJavascript__"
+    },
+    "toggle-large-media": {
+      "description": "__MSG_toggleLargeMedia__"
     }
   },
   "content_scripts": [
