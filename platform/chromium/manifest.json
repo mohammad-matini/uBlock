@@ -36,6 +36,9 @@
     },
     "toggle-large-media": {
       "description": "__MSG_toggleLargeMedia__"
+    },
+    "toggle-remote-fonts": {
+      "description": "__MSG_toggleRemoteFonts__"
     }
   },
   "content_scripts": [

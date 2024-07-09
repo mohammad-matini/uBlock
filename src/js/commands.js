@@ -188,6 +188,13 @@ vAPI.commands.onCommand.addListener(async command => {
             allFrames: true,
         });
         break;
+    case 'toggle-remote-fonts':
+        µb.toggleHostnameSwitch({
+            name: 'no-remote-fonts',
+            hostname: hostnameFromURI(µb.normalizeTabURL(tab.id, tab.url)),
+        });
+        vAPI.tabs.reload(tab.id);
+        break;
     default:
         break;
     }
